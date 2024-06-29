@@ -3,8 +3,9 @@ import React from "react";
 const Child = ({ name, surname }) => {
   return (
     <span>
-      <h1>{name}</h1>
-      <h3>{surname}</h3>
+      <h1>
+        `${name} ${surname}`
+      </h1>
     </span>
   );
 };
